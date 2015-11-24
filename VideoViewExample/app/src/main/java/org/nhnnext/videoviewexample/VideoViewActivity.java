@@ -18,7 +18,7 @@ public class VideoViewActivity extends AppCompatActivity {
 
         VideoView videoView = (VideoView)findViewById(R.id.videoView);
 
-        // internal URI
+        // local resource
         Uri uri = Uri.parse("android.resource://" + getPackageName() + "/raw/too_cute");
 
         // external URL

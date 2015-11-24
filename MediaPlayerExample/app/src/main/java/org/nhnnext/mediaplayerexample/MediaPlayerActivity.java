@@ -56,7 +56,7 @@ public class MediaPlayerActivity extends AppCompatActivity implements SurfaceHol
         }
 
         try {
-            // internal URI
+            // local resource
             Uri uri = Uri.parse("android.resource://" + getPackageName() + "/raw/too_cute");
             mediaPlayer.setDataSource(this, uri);
 
